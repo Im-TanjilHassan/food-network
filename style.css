@@ -1,6 +1,9 @@
 body {
     background-color: #051539;
     color: whitesmoke;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
     
 }
 
@@ -8,6 +11,11 @@ p{
     font-size: 20px;
     line-height: 33px;
 }
+
+h2 {
+    font-size: 30px;
+}
+
 
 
 
@@ -32,15 +40,22 @@ p{
 
 
 
+
+
+
 section {
     margin-bottom: 20%;
 }
 
-.flx-contant {
-    display: flex;
+.header {
     background-image: url(images/bg/firs-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+
+.flx-contant {
+    display: flex;
+    
 }
 
 .box {
@@ -50,7 +65,7 @@ section {
 }
 
 .hero-txt {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #box-1 {
@@ -77,6 +92,9 @@ section {
 }
 
 
+
+
+
 .about {
     background-image: url(images/bg/sec-bg.png);
     background-repeat: no-repeat;
@@ -84,10 +102,60 @@ section {
 }
 
 
-.box h2 {
-    font-size: 30px;
-}
 
 #about-box {
     margin-right: 10%;
+}
+
+
+
+
+
+
+
+.recipie-header {
+
+    text-align: center;
+    padding: 0 19%;
+}
+
+.recipie-img {
+    width: 100%;
+    height: 50%;
+    border-radius: 13px;
+}
+
+.columb{
+    margin: 5% 4%;
+    background-color: #010E29;
+    padding: 10px 15px;
+    border-radius: 13px;
+    box-shadow: 5px 5px 40px black;
+
+}
+
+.qoute {
+    margin-top: 25%;
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+}
+
+.qoute h2 {
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    color: #FFD164;
+}
+
+
+
+
+
+
+
+footer {
+
+    text-align: center;
+    background-color: #010E29;
+    padding: 5%;
 }
