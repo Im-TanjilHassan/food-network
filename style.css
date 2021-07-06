@@ -1,0 +1,80 @@
+body {
+    background-color: #051539;
+    color: whitesmoke;
+    
+}
+
+p{
+    font-size: 20px;
+    line-height: 33px;
+}
+
+
+
+
+
+.top-header {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-left: 30%;
+    color: whitesmoke;
+    word-spacing: 9px;
+}
+
+.clr-word {
+    color: orange;
+}
+
+
+
+
+
+.flx-contant {
+    display: flex;
+    background-image: url(images/bg/firs-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box {
+    margin-left: 10%;
+    width: 100%;
+
+}
+
+.hero-txt {
+    font-size: 50px;
+}
+
+#box-1 {
+    margin-top: 7%;
+    
+}
+
+.box p {
+    margin-bottom: 7%;
+}
+
+.home-img {
+    width: 90%;
+}
+
+.btn {
+    font-weight: 700;
+    color: #051539;
+    text-decoration: none;
+    background-image: linear-gradient(to right top, #2ab8c2, #00cab8, #00da99, #5ce567, #a8eb12);
+    padding: 10px 40px;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
