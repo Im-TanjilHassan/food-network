@@ -32,7 +32,9 @@ p{
 
 
 
-
+section {
+    margin-bottom: 20%;
+}
 
 .flx-contant {
     display: flex;
@@ -70,11 +72,22 @@ p{
     text-decoration: none;
     background-image: linear-gradient(to right top, #2ab8c2, #00cab8, #00da99, #5ce567, #a8eb12);
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 
 
+.about {
+    background-image: url(images/bg/sec-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
 
 
+.box h2 {
+    font-size: 30px;
+}
 
+#about-box {
+    margin-right: 10%;
+}
